@@ -6,7 +6,8 @@ const odds = require("../output/" + "ODDS2020-12-23.json");
 
 //
 const statAddAll = (tArr) => {
-	const indexTeam = dutchTeams.map((x) => x.today).indexOf(tArr.homeTeam);
+	const indOne = dutchTeams.map((x) => x.today).indexOf(tArr.homeTeam);
+	const indTwo = dutchTeams.map((x) => x.today).indexOf(tArr.awayTeam);
 	const teamOne = teamStat(tArr.homeTeam, 100);
 	const teamTwo = teamStat(tArr.awayTeam, 100);
 	console.log(teamOne, teamTwo);
@@ -81,7 +82,9 @@ const statAddAll = (tArr) => {
 			(
 				odds
 					.filter(
-						(odd) => odd.homeTeam === dutchTeams[indexTeam].oddsportal
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
 					)
 					.map((v) => +v.win) *
 					(win / 10000) -
@@ -90,7 +93,9 @@ const statAddAll = (tArr) => {
 			(
 				odds
 					.filter(
-						(odd) => odd.homeTeam === dutchTeams[indexTeam].oddsportal
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
 					)
 					.map((v) => +v.draw) *
 					(draw / 10000) -
@@ -99,7 +104,9 @@ const statAddAll = (tArr) => {
 			(
 				odds
 					.filter(
-						(odd) => odd.homeTeam === dutchTeams[indexTeam].oddsportal
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
 					)
 					.map((v) => +v.lose) *
 					(lose / 10000) -
