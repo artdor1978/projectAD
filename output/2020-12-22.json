@@ -1,0 +1,147 @@
+[
+	{
+		"homeTeam": "Brentford",
+		"awayTeam": "Newcastle",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Arsenal",
+		"awayTeam": "Man City",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Doncaster",
+		"awayTeam": "Shrewsbury",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Sunderland",
+		"awayTeam": "Blackpool",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Grimsby",
+		"awayTeam": "Bradford",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Elche",
+		"awayTeam": "Osasuna",
+		"time": "18:30"
+	},
+	{
+		"homeTeam": "Valencia",
+		"awayTeam": "Sevilla",
+		"time": "18:30"
+	},
+	{
+		"homeTeam": "Huesca",
+		"awayTeam": "Levante",
+		"time": "20:45"
+	},
+	{
+		"homeTeam": "Real Sociedad",
+		"awayTeam": "Atlético Madrid",
+		"time": "20:45"
+	},
+	{
+		"homeTeam": "Real Valladolid",
+		"awayTeam": "Barcelona",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Villarreal",
+		"awayTeam": "Athletic Bilbao",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Crotone",
+		"awayTeam": "Parma",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Juventus",
+		"awayTeam": "Fiorentina",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Cittadella",
+		"awayTeam": "Frosinone",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Cosenza",
+		"awayTeam": "Venezia",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Monza",
+		"awayTeam": "Ascoli",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Pescara",
+		"awayTeam": "Brescia",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Pisa",
+		"awayTeam": "Chievo",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Pordenone",
+		"awayTeam": "Cremonese",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "SPAL",
+		"awayTeam": "Lecce",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Vicenza",
+		"awayTeam": "Reggina",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Empoli",
+		"awayTeam": "Reggiana",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "SC Braga",
+		"awayTeam": "Rio Ave",
+		"time": "22:15"
+	},
+	{
+		"homeTeam": "Fortuna Sittard",
+		"awayTeam": "RKC Waalwijk",
+		"time": "17:30"
+	},
+	{
+		"homeTeam": "Emmen",
+		"awayTeam": "Utrecht",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "PSV",
+		"awayTeam": "VVV-Venlo",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Twente",
+		"awayTeam": "Sparta Rotterdam",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Corinthians",
+		"awayTeam": "Goiás",
+		"time": "FT"
+	},
+	{
+		"homeTeam": "Operário PR",
+		"awayTeam": "Juventude",
+		"time": "21:00"
+	}
+]

@@ -1,0 +1,147 @@
+[
+	{
+		"homeTeam": "Stoke",
+		"awayTeam": "Tottenham",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Everton",
+		"awayTeam": "Man Utd",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Getafe",
+		"awayTeam": "Celta Vigo",
+		"time": "18:30"
+	},
+	{
+		"homeTeam": "Real Madrid",
+		"awayTeam": "Granada",
+		"time": "20:45"
+	},
+	{
+		"homeTeam": "Alaves",
+		"awayTeam": "Eibar",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Real Betis",
+		"awayTeam": "Cadiz",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Verona",
+		"awayTeam": "Inter Milan",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "AC Milan",
+		"awayTeam": "Lazio",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Bologna",
+		"awayTeam": "Atalanta",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Napoli",
+		"awayTeam": "Torino",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Roma",
+		"awayTeam": "Cagliari",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Sampdoria",
+		"awayTeam": "Sassuolo",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Spezia",
+		"awayTeam": "Genoa",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Udinese",
+		"awayTeam": "Benevento",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Bordeaux",
+		"awayTeam": "Reims",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Lens",
+		"awayTeam": "Brest",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Nice",
+		"awayTeam": "Lorient",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Nimes",
+		"awayTeam": "Dijon",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Rennes",
+		"awayTeam": "Metz",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Angers",
+		"awayTeam": "Marseille",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Lyon",
+		"awayTeam": "Nantes",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Monaco",
+		"awayTeam": "St Etienne",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Montpellier",
+		"awayTeam": "Lille",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "PSG",
+		"awayTeam": "Strasbourg",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "AZ Alkmaar",
+		"awayTeam": "Vitesse",
+		"time": "17:30"
+	},
+	{
+		"homeTeam": "Willem II",
+		"awayTeam": "Ajax",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "ADO Den Haag",
+		"awayTeam": "PEC Zwolle",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Groningen",
+		"awayTeam": "Heracles",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Feyenoord",
+		"awayTeam": "Heerenveen",
+		"time": "22:00"
+	}
+]

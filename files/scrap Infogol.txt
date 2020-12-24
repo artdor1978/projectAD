@@ -1,0 +1,18 @@
+1. scrap Infogol - files with names
++2. scrap today
++3. scrap Oddsportal - urls!
++4. predict
+
+
+
+
+
+eng1,2
+spa,
+ita,
+ger,
+fra,
+por,
+dut,
+CL,
+LE
