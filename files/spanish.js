@@ -1,0 +1,22 @@
+[
+	"Atlético de Madrid",
+	"Real Madrid",
+	"Real Sociedad",
+	"Villarreal",
+	"Barcelona",
+	"Sevilla",
+	"Granada CF",
+	"Celta de Vigo",
+	"Real Betis",
+	"Athletic Club",
+	"Cádiz",
+	"Getafe",
+	"Alavés",
+	"Valencia CF",
+	"Levante",
+	"Elche",
+	"Eibar",
+	"Real Valladolid",
+	"Osasuna",
+	"Huesca"
+]

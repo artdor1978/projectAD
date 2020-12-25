@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 
 (async () => {
 	const startTime = new Date();
-	const browser = await puppeteer.launch({ headless: false });
+	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 	const modteamsNames = dutchTeams.map((team) =>
 		team.infogol.toLowerCase().replace(/\s/g, "-")

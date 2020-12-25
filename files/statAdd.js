@@ -3,8 +3,8 @@ const { poissonDist } = require("./poissonDistribution.js");
 
 //
 const statAdd = (tArr) => {
-	const teamOne = teamStat(tArr[0], 100);
-	const teamTwo = teamStat(tArr[1], 100);
+	const teamOne = teamStat(tArr[0], 0);
+	const teamTwo = teamStat(tArr[1], 0);
 	console.log(teamOne, teamTwo);
 	const predictOne =
 		(((teamOne.xGSh + teamTwo.xGASh) / 2) * (teamOne.Sh + teamTwo.ShA)) / 2;

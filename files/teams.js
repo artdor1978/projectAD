@@ -3,7 +3,7 @@ const fs = require("fs");
 (async () => {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	const url = "https://www.infogol.net/en/teams/english-premier-league/5";
+	const url = "https://www.infogol.net/en/teams/spanish-la-liga/2";
 	await page.goto(url);
 
 	await page.waitForSelector(".league-table-content-long");
@@ -11,7 +11,7 @@ const fs = require("fs");
 		nodes.map((n) => n.innerText)
 	);
 	const jsonData = JSON.stringify(teams, null, "\t");
-	let fileName = "english" + ".js";
+	let fileName = "spanish" + ".js";
 	fs.writeFileSync(fileName, jsonData);
 	await browser.close();
 })();
