@@ -558,6 +558,78 @@ const dutchTeams = [{
 		infogol: "Huesca",
 		today: "Huesca",
 		oddsportal: "Huesca"
+	}, {
+		infogol: "Sporting Lisbon",
+		today: "Sporting CP",
+		oddsportal: "Sporting",
+	}, {
+		infogol: "Benfica",
+		today: "Benfica",
+		oddsportal: "Benfica",
+	}, {
+		infogol: "FC Porto",
+		today: "Porto",
+		oddsportal: "FC Porto",
+	}, {
+		infogol: "Sporting Braga",
+		today: "SC Braga",
+		oddsportal: "Braga",
+	}, {
+		infogol: "Vitória Guimarães",
+		today: "Guimarães",
+		oddsportal: "Vitoria Guimaraes",
+	}, {
+		infogol: "Paços de Ferreira",
+		today: "Ferreira",
+		oddsportal: "Ferreira",
+	}, {
+		infogol: "Santa Clara",
+		today: "Santa Clara",
+		oddsportal: "Santa Clara",
+	}, {
+		infogol: "FC Famalicão",
+		today: "Famalicão",
+		oddsportal: "Famalicao",
+	}, {
+		infogol: "Rio Ave",
+		today: "Rio Ave",
+		oddsportal: "Rio Ave",
+	}, {
+		infogol: "Belenenses",
+		today: "Belenenses",
+		oddsportal: "Belenenses",
+	}, {
+		infogol: "Moreirense",
+		today: "Moreirense",
+		oddsportal: "Moreirense",
+	}, {
+		infogol: "Marítimo",
+		today: "Marítimo",
+		oddsportal: "Maritimo",
+	}, {
+		infogol: "CD Nacional",
+		today: "Nacional",
+		oddsportal: "Nacional",
+	}, {
+		infogol: "Gil Vicente",
+		today: "Gil Vicente",
+		oddsportal: "Gil Vicente",
+	}, {
+		infogol: "Tondela",
+		today: "Tondela",
+		oddsportal: "Tondela",
+	}, {
+		infogol: "Boavista",
+		today: "Boavista",
+		oddsportal: "Boavista",
+	}, {
+		infogol: "SC Farense",
+		today: "Farense",
+		oddsportal: "SC Farense",
+	}, {
+		infogol: "Portimonense",
+		today: "Portimonense",
+		oddsportal: "Portimonense",
 	}
 
 ];
@@ -701,7 +773,25 @@ const urlsIdDutch = [
 	43,
 	457,
 	61,
-	1016
+	1016,
+	88,
+	67,
+	73,
+	160,
+	480,
+	1655,
+	1662,
+	1641,
+	132,
+	142,
+	1653,
+	336,
+	413,
+	1646,
+	1667,
+	1635,
+	1732,
+	1659
 ];
 module.exports = {
 	dutchTeams,

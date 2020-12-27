@@ -1,0 +1,122 @@
+[
+	{
+		"homeTeam": "Leeds",
+		"awayTeam": "Burnley",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "West Ham",
+		"awayTeam": "Brighton",
+		"time": "16:15"
+	},
+	{
+		"homeTeam": "Liverpool",
+		"awayTeam": "West Brom",
+		"time": "18:30"
+	},
+	{
+		"homeTeam": "Wolves",
+		"awayTeam": "Tottenham",
+		"time": "21:15"
+	},
+	{
+		"homeTeam": "Reggiana",
+		"awayTeam": "Reggina",
+		"time": "13:30"
+	},
+	{
+		"homeTeam": "Ascoli",
+		"awayTeam": "SPAL",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Cosenza",
+		"awayTeam": "Pisa",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Frosinone",
+		"awayTeam": "Pordenone",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Lecce",
+		"awayTeam": "Vicenza",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Venezia",
+		"awayTeam": "Salernitana",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Virtus Entella",
+		"awayTeam": "Pescara",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Brescia",
+		"awayTeam": "Empoli",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Cremonese",
+		"awayTeam": "Monza",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Chievo",
+		"awayTeam": "Cittadella",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Famalicão",
+		"awayTeam": "Gil Vicente",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Nacional",
+		"awayTeam": "Tondela",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Farense",
+		"awayTeam": "Ferreira",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Belenenses",
+		"awayTeam": "Sporting CP",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Utrecht",
+		"awayTeam": "AZ Alkmaar",
+		"time": "15:30"
+	},
+	{
+		"homeTeam": "Bahia",
+		"awayTeam": "Internacional",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Botafogo",
+		"awayTeam": "Corinthians",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Athletico PR",
+		"awayTeam": "Vasco da Gama",
+		"time": "23:15"
+	},
+	{
+		"homeTeam": "Palmeiras",
+		"awayTeam": "Bragantino",
+		"time": "23:15"
+	},
+	{
+		"homeTeam": "Santos",
+		"awayTeam": "Ceará",
+		"time": "23:15"
+	}
+]

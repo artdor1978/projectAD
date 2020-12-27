@@ -1,0 +1,20 @@
+[
+	"Sporting Lisbon",
+	"Benfica",
+	"FC Porto",
+	"Sporting Braga",
+	"Vitória Guimarães",
+	"Paços de Ferreira",
+	"Santa Clara",
+	"FC Famalicão",
+	"Rio Ave",
+	"Belenenses",
+	"Moreirense",
+	"Marítimo",
+	"CD Nacional",
+	"Gil Vicente",
+	"Tondela",
+	"Boavista",
+	"SC Farense",
+	"Portimonense"
+]
