@@ -1,11 +1,11 @@
-const { dutchTeams, urlsIdDutch } = require("./italian.js");
+const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
 const lStat = (place) => {
 	let leagueStat = [];
 	dutchTeams.forEach((x) => {
-		const homeData = require("./" + x + ".json");
+		const homeData = require("../data/" + x.infogol + ".json");
 		const indexTeam = dutchTeams.indexOf(x);
 		leagueStat.push({
-			team: x,
+			team: x.infogol,
 			xg: +homeData
 				.filter(
 					(team) =>
