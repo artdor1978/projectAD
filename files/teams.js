@@ -3,7 +3,7 @@ const fs = require("fs");
 (async () => {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	const url = "https://www.infogol.net/en/teams/portuguese-primeira-liga/51";
+	const url = "https://www.infogol.net/en/teams/australian-a-league/44";
 	await page.goto(url);
 
 	await page.waitForSelector(".league-table-content-long");

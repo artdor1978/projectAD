@@ -8,7 +8,7 @@ const {
 	dutchTeams,
 	urlsIdDutch
 } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2020-12-26.json");
+const odds = require("../output/" + "ODDS2020-12-28.json");
 //nameTeam = "Ajax";
 
 //

@@ -9,6 +9,7 @@ const urls = [
 	"https://www.oddsportal.com/soccer/france/ligue-1",
 	"https://www.oddsportal.com/soccer/portugal/primeira-liga",
 	"https://www.oddsportal.com/soccer/netherlands/eredivisie",
+	"https://www.oddsportal.com/soccer/australia/a-league/",
 ];
 (async () => {
 	const browser = await puppeteer.launch({ headless: false });
@@ -27,7 +28,7 @@ const urls = [
 			nodes.map((n) => n.innerText)
 		);
 		//console.log(odds);
-		
+
 		let y = 0;
 		for (let index = 0; index < home.length; index++) {
 			data.push({
@@ -41,7 +42,6 @@ const urls = [
 		}
 
 		console.log(data);
-		
 	}
 	const jsonData = JSON.stringify(data, null, "\t");
 	let fileName =

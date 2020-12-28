@@ -1,0 +1,37 @@
+[
+	{
+		"homeTeam": "Crystal Palace",
+		"awayTeam": "Leicester",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Chelsea",
+		"awayTeam": "Aston Villa",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Everton",
+		"awayTeam": "Man City",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Rio Ave",
+		"awayTeam": "Marítimo",
+		"time": "20:45"
+	},
+	{
+		"homeTeam": "Boavista",
+		"awayTeam": "SC Braga",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Brasil de Pelotas",
+		"awayTeam": "Confiança",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Western United",
+		"awayTeam": "Adelaide United",
+		"time": "13'"
+	}
+]
