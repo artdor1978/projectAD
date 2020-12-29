@@ -1,14 +1,7 @@
-const {
-	teamStat
-} = require("./statAll.js");
-const {
-	poissonDist
-} = require("./poissonDistribution.js");
-const {
-	dutchTeams,
-	urlsIdDutch
-} = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2020-12-28.json");
+const { teamStat } = require("./statAll.js");
+const { poissonDist } = require("./poissonDistribution.js");
+const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
+const odds = require("../output/" + "ODDS2020-12-26.json");
 //nameTeam = "Ajax";
 
 //
@@ -23,10 +16,18 @@ const statAddAll = (tArr) => {
 			((teamOne.xGSh + teamTwo.xGASh) / 2) * ((teamOne.Sh + teamTwo.ShA) / 2);
 		const predictTwo =
 			((teamOne.xGASh + teamTwo.xGSh) / 2) * ((teamOne.ShA + teamTwo.Sh) / 2);*/
-		const predictOne =
-			(teamOne.xGSh + teamTwo.xGASh - 0.116) * (teamOne.Sh + teamTwo.ShA - 12.65);
+		/*const predictOne =
+			(teamOne.xGSh + teamTwo.xGASh - 0.116) *
+			(teamOne.Sh + teamTwo.ShA - 12.65);
 		const predictTwo =
-			(teamOne.xGASh + teamTwo.xGSh - 0.116) * (teamOne.ShA + teamTwo.Sh - 11.21);
+			(teamOne.xGASh + teamTwo.xGSh - 0.116) *
+			(teamOne.ShA + teamTwo.Sh - 11.21);*/
+		const predictOne =
+			((teamOne.xGSh * teamTwo.xGASh) / 0.116) *
+			((teamOne.Sh * teamTwo.ShA) / 12.65);
+		const predictTwo =
+			((teamOne.xGASh * teamTwo.xGSh) / 0.116) *
+			((teamOne.ShA * teamTwo.Sh) / 11.21);
 		const goals = [...Array(11).keys()];
 		const probOne = goals.map((g) => poissonDist(g, predictOne));
 		const probTwo = goals.map((g) => poissonDist(g, predictTwo));
@@ -34,7 +35,7 @@ const statAddAll = (tArr) => {
 		//probTwo.unshift(0);
 		console.log(predictOne.toFixed(2), predictTwo.toFixed(2));
 		const closest = (counts, goal) =>
-			counts.reduce(function(prev, curr) {
+			counts.reduce(function (prev, curr) {
 				return Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev;
 			});
 		/*const closest = (haystack, needle) => {
@@ -68,13 +69,11 @@ const statAddAll = (tArr) => {
 			over3 = 0,
 			under3 = 0;
 		for (let index = 0; index < monteHome.length; index++) {
-			monteHome[index] > monteAway[index] ?
-				win++
-				:
-				monteHome[index] === monteAway[index] ?
-				draw++
-				:
-				lose++;
+			monteHome[index] > monteAway[index]
+				? win++
+				: monteHome[index] === monteAway[index]
+				? draw++
+				: lose++;
 			/*monteHome[index] + monteAway[index] > 2.5 ? over2++ : under2++;
 		monteHome[index] + monteAway[index] > 1.5 ? over1++ : under1++;
 		monteHome[index] + monteAway[index] > 3.5 ? over3++ : under3++;*/
@@ -92,35 +91,35 @@ const statAddAll = (tArr) => {
 			"value: ",
 			(
 				odds
-				.filter(
-					(odd) =>
-					(odd.homeTeam === dutchTeams[indOne].oddsportal) &
-					(odd.awayTeam === dutchTeams[indTwo].oddsportal)
-				)
-				.map((v) => +v.win) *
-				(win / 10000) -
+					.filter(
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
+					)
+					.map((v) => +v.win) *
+					(win / 10000) -
 				1
 			).toFixed(2),
 			(
 				odds
-				.filter(
-					(odd) =>
-					(odd.homeTeam === dutchTeams[indOne].oddsportal) &
-					(odd.awayTeam === dutchTeams[indTwo].oddsportal)
-				)
-				.map((v) => +v.draw) *
-				(draw / 10000) -
+					.filter(
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
+					)
+					.map((v) => +v.draw) *
+					(draw / 10000) -
 				1
 			).toFixed(2),
 			(
 				odds
-				.filter(
-					(odd) =>
-					(odd.homeTeam === dutchTeams[indOne].oddsportal) &
-					(odd.awayTeam === dutchTeams[indTwo].oddsportal)
-				)
-				.map((v) => +v.lose) *
-				(lose / 10000) -
+					.filter(
+						(odd) =>
+							(odd.homeTeam === dutchTeams[indOne].oddsportal) &
+							(odd.awayTeam === dutchTeams[indTwo].oddsportal)
+					)
+					.map((v) => +v.lose) *
+					(lose / 10000) -
 				1
 			).toFixed(2)
 		);
@@ -152,5 +151,5 @@ const statAddAll = (tArr) => {
 
 //console.log(probOne, probTwo);
 module.exports = {
-	statAddAll
+	statAddAll,
 };
