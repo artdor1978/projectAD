@@ -1,8 +1,8 @@
 var http = require("http");
 const fetch = require("node-fetch");
 const url =
-	"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2282346%22%5D";
-
+	"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2279718%22%5D";
+/*"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2282346%22%5D";*/
 //"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2272843%22%5D";
 //	"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2270283%22%5D";
 //"https://www.infogolapp.com/DataRequest/Query/vw_ShotEvents?filterJson=%5B%22MatchID%22,%22eq%22,%2284156%22%5D";
@@ -125,5 +125,18 @@ const getStat = (json) => {
 	}
 	console.log("prob:", win / 10000, draw / 10000, lose / 10000);
 	console.log("over/under:", over / 10000, under / 10000);
+	//console.log(json.map((v) => v.EventTypeID).indexOf(16));
+	let hzero = 0,
+		azero = 0;
+	for (
+		let index = 0;
+		index < json.map((v) => v.EventTypeID).indexOf(16);
+		index++
+	) {
+		json[index].EventTeamID === json[index].HomeTeamID
+			? (hzero += json[index].Prob)
+			: (azero += json[index].Prob);
+	}
+	console.log(hzero/azero);
 };
 //https://www.youtube.com/watch?v=ixbM-sYrKaE&list=PLDrmKwRSNx7I3oNz_9RncOmuOj1Bny-Yw

@@ -1,7 +1,7 @@
 const { teamStat } = require("./statAll.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2020-12-29.json");
+const odds = require("../output/" + "ODDS2020-12-30.json");
 //nameTeam = "Ajax";
 
 //

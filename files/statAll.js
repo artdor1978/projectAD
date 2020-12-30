@@ -19,6 +19,34 @@ const teamStat = (nameTeam, exclude, place) => {
 					.map((prob) => prob.MatchID)
 			),
 		];
+
+		let hzero = 0,
+			azero = 0;
+		for (let game = 0; game < gameId.length; game++) {
+			const gameData = homeData.filter((x) => x.MatchID === gameId[game]);
+			for (
+				let index = 0;
+				index < gameData.map((v) => v.EventTypeID).indexOf(16);
+				index++
+			) {
+				if (gameData[index].EventTeamID === gameData[index].HomeTeamID) {
+					hzero += gameData[index].Prob;
+				}
+
+				if (gameData[index].EventTeamID === gameData[index].AwayTeamID) {
+					azero += gameData[index].Prob;
+				}
+			}
+		}
+		//console.log(hzero, azero, hzero / azero);
+
+		console.log(
+			"xG0-0:",
+			place === "HomeTeamID"
+				? (hzero / azero).toFixed(2)
+				: (azero / hzero).toFixed(2)
+		);
+
 		/*const teamOneXg = +homeData
 			.filter(
 				(team) =>

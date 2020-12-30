@@ -12,7 +12,13 @@ spa+,
 ita+,
 ger+,
 fra+,
-por,
+por+,
 dut+,
 CL,
 LE
+
+home/away <=> all
+0-0!!!!!++++
++1
+-1
+xG on target???
