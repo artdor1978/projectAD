@@ -1,0 +1,307 @@
+[
+	{
+		"homeTeam": "Tottenham",
+		"awayTeam": "Leeds",
+		"time": "14:30"
+	},
+	{
+		"homeTeam": "Crystal Palace",
+		"awayTeam": "Sheff Utd",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Brighton",
+		"awayTeam": "Wolves",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "West Brom",
+		"awayTeam": "Arsenal",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Birmingham",
+		"awayTeam": "Blackburn",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Huddersfield",
+		"awayTeam": "Reading",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Millwall",
+		"awayTeam": "Coventry",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Norwich",
+		"awayTeam": "Barnsley",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Preston",
+		"awayTeam": "Forest",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Rotherham",
+		"awayTeam": "Cardiff",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Swansea",
+		"awayTeam": "Watford",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Wycombe",
+		"awayTeam": "Middlesbrough",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Stoke",
+		"awayTeam": "Bournemouth",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Brentford",
+		"awayTeam": "Bristol City",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Luton",
+		"awayTeam": "QPR",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Bristol Rovers",
+		"awayTeam": "Blackpool",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Burton",
+		"awayTeam": "Oxford",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Hull",
+		"awayTeam": "Charlton",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Northampton",
+		"awayTeam": "Sunderland",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Plymouth",
+		"awayTeam": "Gillingham",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Swindon",
+		"awayTeam": "Wigan",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Wimbledon",
+		"awayTeam": "Lincoln",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Accrington Stanley",
+		"awayTeam": "Portsmouth",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Peterborough",
+		"awayTeam": "Doncaster",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Rochdale",
+		"awayTeam": "MK Dons",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Shrewsbury",
+		"awayTeam": "Crewe",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Bolton",
+		"awayTeam": "Crawley",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Colchester",
+		"awayTeam": "Tranmere",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Forest Green",
+		"awayTeam": "Oldham",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Grimsby",
+		"awayTeam": "Cambridge",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Harrogate",
+		"awayTeam": "Cheltenham",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Leyton Orient",
+		"awayTeam": "Salford",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Mansfield",
+		"awayTeam": "Port Vale",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Newport",
+		"awayTeam": "Southend",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Stevenage",
+		"awayTeam": "Scunthorpe",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Walsall",
+		"awayTeam": "Carlisle",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Barrow",
+		"awayTeam": "Exeter",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Bradford",
+		"awayTeam": "Morecambe",
+		"time": "P"
+	},
+	{
+		"homeTeam": "Villarreal",
+		"awayTeam": "Levante",
+		"time": "15:00"
+	},
+	{
+		"homeTeam": "Real Betis",
+		"awayTeam": "Sevilla",
+		"time": "17:15"
+	},
+	{
+		"homeTeam": "Getafe",
+		"awayTeam": "Real Valladolid",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Real Madrid",
+		"awayTeam": "Celta Vigo",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Fuenlabrada",
+		"awayTeam": "Leganés",
+		"time": "15:00"
+	},
+	{
+		"homeTeam": "Rayo Vallecano",
+		"awayTeam": "Alcorcón",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "UD Logroñés",
+		"awayTeam": "Mirandés",
+		"time": "19:15"
+	},
+	{
+		"homeTeam": "Cartagena",
+		"awayTeam": "Real Zaragoza",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Arminia Bielefeld",
+		"awayTeam": "Mönchengladbach",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Eintracht Frankfurt",
+		"awayTeam": "Bayer Leverkusen",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "FC Köln",
+		"awayTeam": "Augsburg",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Hoffenheim",
+		"awayTeam": "Freiburg",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Werder Bremen",
+		"awayTeam": "Union Berlin",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Hertha Berlin",
+		"awayTeam": "Schalke",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Stuttgart",
+		"awayTeam": "RB Leipzig",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Bochum",
+		"awayTeam": "Darmstadt",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "Heidenheim",
+		"awayTeam": "Nürnberg",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "Würzburger Kickers",
+		"awayTeam": "Karlsruher",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "Sporting CP",
+		"awayTeam": "SC Braga",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "CSA",
+		"awayTeam": "Sampaio Corrêa",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Oeste",
+		"awayTeam": "Figueirense",
+		"time": "23:45"
+	},
+	{
+		"homeTeam": "Wellington Phoenix",
+		"awayTeam": "Sydney FC",
+		"time": "08:05"
+	},
+	{
+		"homeTeam": "Melbourne Victory",
+		"awayTeam": "Brisbane Roar",
+		"time": "10:10"
+	}
+]

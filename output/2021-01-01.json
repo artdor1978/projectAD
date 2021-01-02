@@ -1,0 +1,22 @@
+[
+	{
+		"homeTeam": "Everton",
+		"awayTeam": "West Ham",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Man Utd",
+		"awayTeam": "Aston Villa",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Sheff Wed",
+		"awayTeam": "Derby",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Western Sydney Wanderers",
+		"awayTeam": "Western United",
+		"time": "P"
+	}
+]
