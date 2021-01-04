@@ -1,0 +1,102 @@
+[
+	{
+		"homeTeam": "Southampton",
+		"awayTeam": "Liverpool",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Valencia",
+		"awayTeam": "Cadiz",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Girona",
+		"awayTeam": "Sabadell",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Lugo",
+		"awayTeam": "Sporting Gijon",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Cosenza",
+		"awayTeam": "Empoli",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Venezia",
+		"awayTeam": "Pisa",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Lecce",
+		"awayTeam": "Monza",
+		"time": "17:00"
+	},
+	{
+		"homeTeam": "Ascoli",
+		"awayTeam": "Reggina",
+		"time": "18:00"
+	},
+	{
+		"homeTeam": "Cremonese",
+		"awayTeam": "Chievo",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Frosinone",
+		"awayTeam": "SPAL",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Reggiana",
+		"awayTeam": "Pescara",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Salernitana",
+		"awayTeam": "Pordenone",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Virtus Entella",
+		"awayTeam": "Cittadella",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Brescia",
+		"awayTeam": "Vicenza",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Fortuna Düsseldorf",
+		"awayTeam": "Paderborn",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Santa Clara",
+		"awayTeam": "Benfica",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Gil Vicente",
+		"awayTeam": "Belenenses",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Portimonense",
+		"awayTeam": "Farense",
+		"time": "23:15"
+	},
+	{
+		"homeTeam": "Paraná",
+		"awayTeam": "Botafogo (Ribeirão Preto)",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Fleetwood",
+		"awayTeam": "Ipswich",
+		"time": "P"
+	}
+]

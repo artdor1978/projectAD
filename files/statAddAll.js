@@ -1,7 +1,7 @@
 const { teamStat } = require("./statAll.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2021-01-03.json");
+const odds = require("../output/" + "ODDS2021-01-04.json");
 //nameTeam = "Ajax";
 
 //
@@ -10,7 +10,11 @@ const statAddAll = (tArr) => {
 	const indTwo = dutchTeams.map((x) => x.today).indexOf(tArr.awayTeam);
 	const teamOne = teamStat(tArr.homeTeam, 100, "HomeTeamID");
 	const teamTwo = teamStat(tArr.awayTeam, 100, "AwayTeamID");
-	console.log(teamOne, teamTwo);
+	//console.log(teamOne, teamTwo);
+	if (teamOne) {
+		console.log("last15:", teamOne.last15, teamTwo.last15);
+		console.log("luck:", teamOne.luck, teamTwo.luck);
+	}
 	if (teamOne) {
 		/*const predictOne =
 			((teamOne.xGSh + teamTwo.xGASh) / 2) * ((teamOne.Sh + teamTwo.ShA) / 2);
@@ -33,7 +37,10 @@ const statAddAll = (tArr) => {
 		const probTwo = goals.map((g) => poissonDist(g, predictTwo));
 		//probOne.unshift(0);
 		//probTwo.unshift(0);
-		console.log(predictOne.toFixed(2), predictTwo.toFixed(2));
+		const forecastOne = predictOne * teamOne.t1xg * teamTwo.t2xg;
+		const forecastTwo = predictTwo * teamOne.t2xg * teamTwo.t1xg;
+		console.log("predict:", predictOne.toFixed(2), predictTwo.toFixed(2));
+		//console.log("forecast:", forecastOne.toFixed(2), forecastTwo.toFixed(2));
 		const closest = (counts, goal) =>
 			counts.reduce(function (prev, curr) {
 				return Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev;
@@ -80,14 +87,15 @@ const statAddAll = (tArr) => {
 		}
 		//console.log(monteHome,monteAway);
 		//console.log(predictOne, predictTwo);
-		console.log("prob:", win / 10000, draw / 10000, lose / 10000);
+		/*console.log("prob:", win / 10000, draw / 10000, lose / 10000);
 		console.log(
 			"odds:",
 			(1 / (win / 10000)).toFixed(2),
 			(1 / (draw / 10000)).toFixed(2),
 			(1 / (lose / 10000)).toFixed(2)
-		);
+		);*/
 		console.log(
+			"\x1b[33m%s\x1b[0m",
 			"value: ",
 			(
 				odds
