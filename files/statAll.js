@@ -26,7 +26,7 @@ const teamStat = (nameTeam, exclude, place) => {
 			const gameData = homeData.filter((x) => x.MatchID === gameId[game]);
 			for (
 				let index = 0;
-				index < gameData.map((v) => v.EventTypeID).indexOf(16);
+				index <= gameData.map((v) => v.EventTypeID).indexOf(16);
 				index++
 			) {
 				if (gameData[index].EventTeamID === gameData[index].HomeTeamID) {
