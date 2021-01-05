@@ -108,25 +108,15 @@ const gameProgress = (nameTeam, exclude, place) => {
 				}
 			}
 		});
-		if (place === "AwayTeamID") {
-			console.log(
-				nameTeam,
-				goalsAgainst,
-				goalsFor,
-				(hlose / alose).toFixed(2),
-				(hdraw / adraw).toFixed(2),
-				(hwin / awin).toFixed(2)
-			);
-		} else {
-			console.log(
-				nameTeam,
-				goalsFor,
-				goalsAgainst,
-				(hwin / awin).toFixed(2),
-				(hdraw / adraw).toFixed(2),
-				(hlose / alose).toFixed(2)
-			);
-		}
+
+		console.log(
+			nameTeam,
+			goalsFor,
+			goalsAgainst,
+			(hwin / awin).toFixed(2),
+			(hdraw / adraw).toFixed(2),
+			(hlose / alose).toFixed(2)
+		);
 	}
 };
 module.exports = {

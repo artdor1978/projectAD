@@ -9,10 +9,10 @@ const odds = require("../output/" + "ODDS2021-01-04.json");
 const statAddAll = (tArr) => {
 	const indOne = dutchTeams.map((x) => x.today).indexOf(tArr.homeTeam);
 	const indTwo = dutchTeams.map((x) => x.today).indexOf(tArr.awayTeam);
-	const teamOne = teamStat(tArr.homeTeam, 0, "HomeTeamID");
-	const teamTwo = teamStat(tArr.awayTeam, 0, "AwayTeamID");
-	const gamePrOne = gameProgress(tArr.homeTeam, 0, "HomeTeamID");
-	const gamePrTwo = gameProgress(tArr.awayTeam, 0, "AwayTeamID");
+	const teamOne = teamStat(tArr.homeTeam, 150, "HomeTeamID");
+	const teamTwo = teamStat(tArr.awayTeam, 150, "AwayTeamID");
+	const gamePrOne = gameProgress(tArr.homeTeam, 150, "HomeTeamID");
+	const gamePrTwo = gameProgress(tArr.awayTeam, 150, "AwayTeamID");
 
 	if (teamOne) {
 		console.log(gamePrOne, gamePrTwo);
