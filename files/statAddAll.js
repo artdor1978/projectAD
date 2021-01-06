@@ -2,7 +2,7 @@ const { teamStat } = require("./statAll.js");
 const { gameProgress } = require("./xgWinDrawLose.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2021-01-04.json");
+const odds = require("../output/" + "ODDS2021-01-06.json");
 //nameTeam = "Ajax";
 
 //
@@ -15,8 +15,23 @@ const statAddAll = (tArr) => {
 	const gamePrTwo = gameProgress(tArr.awayTeam, 150, "AwayTeamID");
 
 	if (teamOne) {
-		console.log(gamePrOne, gamePrTwo);
-		console.log("last15:", teamOne.last15, teamTwo.last15);
+		//console.log("last15:", teamOne.last15, teamTwo.last15);
+		console.log(
+			"0-0:",
+			teamOne.hzero + teamTwo.hzero + "/" + (teamOne.azero + teamTwo.azero)
+		);
+		console.log(
+			"WIN:",
+			gamePrOne.HW + gamePrTwo.HW + "/" + (gamePrOne.AW + gamePrTwo.AW)
+		);
+		console.log(
+			"DRAW:",
+			gamePrOne.HD + gamePrTwo.HD + "/" + (gamePrOne.AD + gamePrTwo.AD)
+		);
+		console.log(
+			"LOSE:",
+			gamePrOne.HL + gamePrTwo.HL + "/" + (gamePrOne.AL + gamePrTwo.AL)
+		);
 		console.log("luck:", teamOne.luck, teamTwo.luck);
 	}
 	if (teamOne) {

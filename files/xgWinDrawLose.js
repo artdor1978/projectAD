@@ -109,14 +109,33 @@ const gameProgress = (nameTeam, exclude, place) => {
 			}
 		});
 
-		console.log(
+		/*console.log(
 			nameTeam,
 			goalsFor,
 			goalsAgainst,
 			(hwin / awin).toFixed(2),
 			(hdraw / adraw).toFixed(2),
 			(hlose / alose).toFixed(2)
-		);
+		);*/
+		/*console.log(
+			nameTeam,
+			goalsFor,
+			goalsAgainst,
+			hwin.toFixed(1) + "/" + awin.toFixed(1) + "; ",
+			hdraw.toFixed(1) + "/" + adraw.toFixed(1) + "; ",
+			hlose.toFixed(1) + "/" + alose.toFixed(1)
+		);*/
+		const gameProObj = {
+			GF: goalsFor,
+			GA: goalsAgainst,
+			HW: +hwin.toFixed(1),
+			AW: +awin.toFixed(1),
+			HD: +hdraw.toFixed(1),
+			AD: +adraw.toFixed(1),
+			HL: +hlose.toFixed(1),
+			AL: +alose.toFixed(1),
+		};
+		return gameProObj;
 	}
 };
 module.exports = {

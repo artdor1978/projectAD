@@ -20,7 +20,7 @@ const fs = require("fs");
 	}
 	//console.log(today);
 	const jsonData = JSON.stringify(
-		today.filter((x) => x.time != "FT"),
+		today.filter((x) => x.time != "FT"& x.time != "P"),
 		null,
 		"\t"
 	);

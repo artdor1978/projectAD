@@ -1,0 +1,117 @@
+[
+	{
+		"homeTeam": "Man Utd",
+		"awayTeam": "Man City",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Athletic Bilbao",
+		"awayTeam": "Barcelona",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Cagliari",
+		"awayTeam": "Benevento",
+		"time": "13:30"
+	},
+	{
+		"homeTeam": "Atalanta",
+		"awayTeam": "Parma",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Bologna",
+		"awayTeam": "Udinese",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Crotone",
+		"awayTeam": "Roma",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Lazio",
+		"awayTeam": "Fiorentina",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Sampdoria",
+		"awayTeam": "Inter Milan",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Sassuolo",
+		"awayTeam": "Genoa",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Torino",
+		"awayTeam": "Verona",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Napoli",
+		"awayTeam": "Spezia",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "AC Milan",
+		"awayTeam": "Juventus",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Würzburger Kickers",
+		"awayTeam": "St. Pauli",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Brest",
+		"awayTeam": "Nice",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Lorient",
+		"awayTeam": "Monaco",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Metz",
+		"awayTeam": "Bordeaux",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Nantes",
+		"awayTeam": "Rennes",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Strasbourg",
+		"awayTeam": "Nimes",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Lille",
+		"awayTeam": "Angers",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Lyon",
+		"awayTeam": "Lens",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Marseille",
+		"awayTeam": "Montpellier",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Reims",
+		"awayTeam": "Dijon",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "St Etienne",
+		"awayTeam": "PSG",
+		"time": "22:00"
+	}
+]

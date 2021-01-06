@@ -40,12 +40,18 @@ const teamStat = (nameTeam, exclude, place) => {
 		}
 		//console.log(hzero, azero, hzero / azero);
 
-		console.log(
+		/*console.log(
 			"xG0-0:",
-			place === "HomeTeamID"
-				? (hzero / azero).toFixed(2)
-				: (azero / hzero).toFixed(2)
-		);
+			/*place === "HomeTeamID"
+				? (hzero / azero).toFixed(2) +
+						" " +*/
+			//hzero.toFixed(1) + "/" + azero.toFixed(1)
+			/*: (azero / hzero).toFixed(2) +
+						" " +
+						azero.toFixed(1) +
+						"/" +
+						hzero.toFixed(1)*/
+		//);*/
 
 		const teamOneXg = +homeData
 			.filter(
@@ -296,10 +302,12 @@ const teamStat = (nameTeam, exclude, place) => {
 			highA: highTwo.toFixed(2),
 			/*goalsFor: probGoalsHome,
 			goalsAgainst: probGoalsAway,*/
-			last15: (last15h / last15a).toFixed(2),
+			last15: last15h.toFixed(1) + "/" + last15a.toFixed(1),
 			luck: (teamOneGoals - teamTwoGoals - teamOneXg + teamTwoXg).toFixed(2),
 			t1xg: +(teamOneXg / teamOneGoals).toFixed(2),
 			t2xg: +(teamTwoXg / teamTwoGoals).toFixed(2),
+			hzero: +hzero.toFixed(1),
+			azero: +azero.toFixed(1),
 		};
 		return teamObj;
 	} else {
