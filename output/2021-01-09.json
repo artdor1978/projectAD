@@ -1,0 +1,183 @@
+[
+	
+	{
+		"homeTeam": "Sevilla",
+		"awayTeam": "Real Sociedad",
+		"time": "15:00"
+	},
+	{
+		"homeTeam": "Atlético Madrid",
+		"awayTeam": "Athletic Bilbao",
+		"time": "17:15"
+	},
+	{
+		"homeTeam": "Granada",
+		"awayTeam": "Barcelona",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Osasuna",
+		"awayTeam": "Real Madrid",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Málaga",
+		"awayTeam": "Real Oviedo",
+		"time": "19:15"
+	},
+	{
+		"homeTeam": "Benevento",
+		"awayTeam": "Atalanta",
+		"time": "16:00"
+	},
+	{
+		"homeTeam": "Genoa",
+		"awayTeam": "Bologna",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "AC Milan",
+		"awayTeam": "Torino",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Reggiana",
+		"awayTeam": "Cittadella",
+		"time": "15:00"
+	},
+	{
+		"homeTeam": "Bayer Leverkusen",
+		"awayTeam": "Werder Bremen",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Freiburg",
+		"awayTeam": "FC Köln",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Mainz",
+		"awayTeam": "Eintracht Frankfurt",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Schalke",
+		"awayTeam": "Hoffenheim",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "Union Berlin",
+		"awayTeam": "Wolfsburg",
+		"time": "16:30"
+	},
+	{
+		"homeTeam": "RB Leipzig",
+		"awayTeam": "Dortmund",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Nürnberg",
+		"awayTeam": "Hamburg",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "Osnabrück",
+		"awayTeam": "Würzburger Kickers",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "St. Pauli",
+		"awayTeam": "Holstein Kiel",
+		"time": "14:00"
+	},
+	{
+		"homeTeam": "Bordeaux",
+		"awayTeam": "Lorient",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Dijon",
+		"awayTeam": "Marseille",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Lens",
+		"awayTeam": "Strasbourg",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Metz",
+		"awayTeam": "Nice",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Monaco",
+		"awayTeam": "Angers",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Montpellier",
+		"awayTeam": "Nantes",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Nimes",
+		"awayTeam": "Lille",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "PSG",
+		"awayTeam": "Brest",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Reims",
+		"awayTeam": "St Etienne",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Rennes",
+		"awayTeam": "Lyon",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Moreirense",
+		"awayTeam": "Guimarães",
+		"time": "19:00"
+	},
+	{
+		"homeTeam": "Boavista",
+		"awayTeam": "Santa Clara",
+		"time": "22:30"
+	},
+	{
+		"homeTeam": "RKC Waalwijk",
+		"awayTeam": "ADO Den Haag",
+		"time": "17:30"
+	},
+	{
+		"homeTeam": "Emmen",
+		"awayTeam": "Twente",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "Heracles",
+		"awayTeam": "Vitesse",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "PEC Zwolle",
+		"awayTeam": "AZ Alkmaar",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Utrecht",
+		"awayTeam": "Groningen",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Macarthur FC",
+		"awayTeam": "Wellington Phoenix",
+		"time": "11'"
+	}
+]

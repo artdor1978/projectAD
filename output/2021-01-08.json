@@ -1,0 +1,62 @@
+[
+	{
+		"homeTeam": "Charlton",
+		"awayTeam": "Accrington Stanley",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Celta Vigo",
+		"awayTeam": "Villarreal",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Real Zaragoza",
+		"awayTeam": "UD Logroñés",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Mönchengladbach",
+		"awayTeam": "Bayern Munich",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Karlsruher",
+		"awayTeam": "Greuther Fürth",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Sandhausen",
+		"awayTeam": "Heidenheim",
+		"time": "19:30"
+	},
+	{
+		"homeTeam": "Nacional",
+		"awayTeam": "Sporting CP",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Benfica",
+		"awayTeam": "Tondela",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Rio Ave",
+		"awayTeam": "Portimonense",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Famalicão",
+		"awayTeam": "Porto",
+		"time": "23:00"
+	},
+	{
+		"homeTeam": "Brasil de Pelotas",
+		"awayTeam": "Avai",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Newcastle Jets",
+		"awayTeam": "Western Sydney Wanderers",
+		"time": "10:10"
+	}
+]
