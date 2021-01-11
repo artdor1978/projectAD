@@ -1,0 +1,940 @@
+[
+	{
+		"homeTeam": "Sheffield Utd",
+		"awayTeam": "Newcastle",
+		"win": "2.47",
+		"draw": "3.20",
+		"lose": "3.15"
+	},
+	{
+		"homeTeam": "Burnley",
+		"awayTeam": "Manchester Utd",
+		"win": "7.10",
+		"draw": "4.58",
+		"lose": "1.47"
+	},
+	{
+		"homeTeam": "Wolves",
+		"awayTeam": "Everton",
+		"win": "2.50",
+		"draw": "3.24",
+		"lose": "3.06"
+	},
+	{
+		"homeTeam": "Manchester City",
+		"awayTeam": "Brighton",
+		"win": "1.20",
+		"draw": "7.17",
+		"lose": "15.04"
+	},
+	{
+		"homeTeam": "Aston Villa",
+		"awayTeam": "Tottenham",
+		"win": "5.62",
+		"draw": "4.61",
+		"lose": "1.54"
+	},
+	{
+		"homeTeam": "Arsenal",
+		"awayTeam": "Crystal Palace",
+		"win": "1.56",
+		"draw": "4.12",
+		"lose": "6.42"
+	},
+	{
+		"homeTeam": "Fulham",
+		"awayTeam": "Chelsea",
+		"win": "6.34",
+		"draw": "4.41",
+		"lose": "1.53"
+	},
+	{
+		"homeTeam": "Wolves",
+		"awayTeam": "West Brom",
+		"win": "1.48",
+		"draw": "4.25",
+		"lose": "7.82"
+	},
+	{
+		"homeTeam": "Leeds",
+		"awayTeam": "Brighton",
+		"win": "2.06",
+		"draw": "3.71",
+		"lose": "3.52"
+	},
+	{
+		"homeTeam": "West Ham",
+		"awayTeam": "Burnley",
+		"win": "1.91",
+		"draw": "3.56",
+		"lose": "4.26"
+	},
+	{
+		"homeTeam": "Aston Villa",
+		"awayTeam": "Everton",
+		"win": "2.85",
+		"draw": "3.76",
+		"lose": "2.35"
+	},
+	{
+		"homeTeam": "Leicester",
+		"awayTeam": "Southampton",
+		"win": "1.90",
+		"draw": "3.79",
+		"lose": "4.02"
+	},
+	{
+		"homeTeam": "Sheffield Utd",
+		"awayTeam": "Tottenham",
+		"win": "6.87",
+		"draw": "4.33",
+		"lose": "1.50"
+	},
+	{
+		"homeTeam": "Liverpool",
+		"awayTeam": "Manchester Utd",
+		"win": "1.99",
+		"draw": "3.85",
+		"lose": "3.62"
+	},
+	{
+		"homeTeam": "Manchester City",
+		"awayTeam": "Crystal Palace",
+		"win": "1.17",
+		"draw": "7.83",
+		"lose": "16.96"
+	},
+	{
+		"homeTeam": "Arsenal",
+		"awayTeam": "Newcastle",
+		"win": "1.45",
+		"draw": "4.58",
+		"lose": "7.45"
+	},
+	{
+		"homeTeam": "West Ham",
+		"awayTeam": "West Brom",
+		"win": "1.57",
+		"draw": "4.14",
+		"lose": "6.04"
+	},
+	{
+		"homeTeam": "Leicester",
+		"awayTeam": "Chelsea",
+		"win": "3.03",
+		"draw": "3.50",
+		"lose": "2.33"
+	},
+	{
+		"homeTeam": "Leeds",
+		"awayTeam": "Southampton",
+		"win": "2.34",
+		"draw": "3.68",
+		"lose": "2.88"
+	},
+	{
+		"homeTeam": "Fulham",
+		"awayTeam": "Manchester Utd",
+		"win": "6.45",
+		"draw": "4.54",
+		"lose": "1.56"
+	},
+	{
+		"homeTeam": "Liverpool",
+		"awayTeam": "Burnley",
+		"win": "1.19",
+		"draw": "7.27",
+		"lose": "14.85"
+	},
+	{
+		"homeTeam": "Luton",
+		"awayTeam": "QPR",
+		"win": "2.26",
+		"draw": "3.29",
+		"lose": "3.36"
+	},
+	{
+		"homeTeam": "Bournemouth",
+		"awayTeam": "Millwall",
+		"win": "1.68",
+		"draw": "3.81",
+		"lose": "5.26"
+	},
+	{
+		"homeTeam": "Middlesbrough",
+		"awayTeam": "Birmingham",
+		"win": "1.83",
+		"draw": "3.42",
+		"lose": "4.67"
+	},
+	{
+		"homeTeam": "Blackburn",
+		"awayTeam": "Stoke",
+		"win": "2.06",
+		"draw": "3.34",
+		"lose": "3.73"
+	},
+	{
+		"homeTeam": "Bournemouth",
+		"awayTeam": "Luton",
+		"win": "1.55",
+		"draw": "4.06",
+		"lose": "6.23"
+	},
+	{
+		"homeTeam": "Bristol City",
+		"awayTeam": "Preston",
+		"win": "2.50",
+		"draw": "3.31",
+		"lose": "2.85"
+	},
+	{
+		"homeTeam": "Cardiff",
+		"awayTeam": "Norwich",
+		"win": "3.04",
+		"draw": "3.37",
+		"lose": "2.34"
+	},
+	{
+		"homeTeam": "Coventry",
+		"awayTeam": "Sheffield Wed",
+		"win": "2.17",
+		"draw": "3.16",
+		"lose": "3.63"
+	},
+	{
+		"homeTeam": "Derby",
+		"awayTeam": "Rotherham",
+		"win": "2.03",
+		"draw": "3.43",
+		"lose": "3.73"
+	},
+	{
+		"homeTeam": "Nottingham",
+		"awayTeam": "Millwall",
+		"win": "2.37",
+		"draw": "3.02",
+		"lose": "3.33"
+	},
+	{
+		"homeTeam": "QPR",
+		"awayTeam": "Wycombe",
+		"win": "1.80",
+		"draw": "3.78",
+		"lose": "4.30"
+	},
+	{
+		"homeTeam": "Reading",
+		"awayTeam": "Brentford",
+		"win": "3.84",
+		"draw": "3.27",
+		"lose": "2.06"
+	},
+	{
+		"homeTeam": "Watford",
+		"awayTeam": "Huddersfield",
+		"win": "1.67",
+		"draw": "3.86",
+		"lose": "5.14"
+	},
+	{
+		"homeTeam": "Barnsley",
+		"awayTeam": "Swansea",
+		"win": "2.77",
+		"draw": "3.15",
+		"lose": "2.68"
+	},
+	{
+		"homeTeam": "Derby",
+		"awayTeam": "Bournemouth",
+		"win": "3.70",
+		"draw": "3.43",
+		"lose": "1.93"
+	},
+	{
+		"homeTeam": "Reading",
+		"awayTeam": "Coventry",
+		"win": "2.16",
+		"draw": "3.28",
+		"lose": "3.24"
+	},
+	{
+		"homeTeam": "Blackburn",
+		"awayTeam": "Swansea",
+		"win": "2.26",
+		"draw": "3.21",
+		"lose": "3.08"
+	},
+	{
+		"homeTeam": "Sheffield Wed",
+		"awayTeam": "Wycombe",
+		"win": "1.87",
+		"draw": "3.40",
+		"lose": "4.01"
+	},
+	{
+		"homeTeam": "Rotherham",
+		"awayTeam": "Stoke",
+		"win": "3.16",
+		"draw": "2.98",
+		"lose": "2.33"
+	},
+	{
+		"homeTeam": "Watford",
+		"awayTeam": "Barnsley",
+		"win": "1.83",
+		"draw": "3.41",
+		"lose": "4.19"
+	},
+	{
+		"homeTeam": "Norwich",
+		"awayTeam": "Bristol City",
+		"win": "1.57",
+		"draw": "3.70",
+		"lose": "5.79"
+	},
+	{
+		"homeTeam": "Cardiff",
+		"awayTeam": "QPR",
+		"win": "1.95",
+		"draw": "3.41",
+		"lose": "3.68"
+	},
+	{
+		"homeTeam": "Huddersfield",
+		"awayTeam": "Millwall",
+		"win": "2.58",
+		"draw": "3.12",
+		"lose": "2.69"
+	},
+	{
+		"homeTeam": "Nottingham",
+		"awayTeam": "Middlesbrough",
+		"win": "2.50",
+		"draw": "2.98",
+		"lose": "2.92"
+	},
+	{
+		"homeTeam": "Birmingham",
+		"awayTeam": "Preston",
+		"win": "2.44",
+		"draw": "3.07",
+		"lose": "2.94"
+	},
+	{
+		"homeTeam": "Brentford",
+		"awayTeam": "Luton",
+		"win": "1.56",
+		"draw": "3.87",
+		"lose": "5.39"
+	},
+	{
+		"homeTeam": "Levante",
+		"awayTeam": "Eibar",
+		"win": "2.34",
+		"draw": "3.41",
+		"lose": "3.16"
+	},
+	{
+		"homeTeam": "Cadiz CF",
+		"awayTeam": "Alaves",
+		"win": "2.70",
+		"draw": "2.89",
+		"lose": "3.12"
+	},
+	{
+		"homeTeam": "Valladolid",
+		"awayTeam": "Valencia",
+		"win": "2.52",
+		"draw": "3.24",
+		"lose": "3.03"
+	},
+	{
+		"homeTeam": "Elche",
+		"awayTeam": "Getafe",
+		"win": "4.55",
+		"draw": "2.85",
+		"lose": "2.12"
+	},
+	{
+		"homeTeam": "Huesca",
+		"awayTeam": "Betis",
+		"win": "2.88",
+		"draw": "3.31",
+		"lose": "2.57"
+	},
+	{
+		"homeTeam": "Granada CF",
+		"awayTeam": "Osasuna",
+		"win": "2.45",
+		"draw": "2.88",
+		"lose": "3.50"
+	},
+	{
+		"homeTeam": "Atl. Madrid",
+		"awayTeam": "Sevilla",
+		"win": "2.01",
+		"draw": "3.12",
+		"lose": "4.52"
+	},
+	{
+		"homeTeam": "Cadiz CF",
+		"awayTeam": "Levante",
+		"win": "3.00",
+		"draw": "2.89",
+		"lose": "2.73"
+	},
+	{
+		"homeTeam": "Valladolid",
+		"awayTeam": "Elche",
+		"win": "1.98",
+		"draw": "3.18",
+		"lose": "4.42"
+	},
+	{
+		"homeTeam": "Alaves",
+		"awayTeam": "Sevilla",
+		"win": "4.77",
+		"draw": "3.51",
+		"lose": "1.82"
+	},
+	{
+		"homeTeam": "Getafe",
+		"awayTeam": "Huesca",
+		"win": "1.96",
+		"draw": "3.17",
+		"lose": "4.51"
+	},
+	{
+		"homeTeam": "Betis",
+		"awayTeam": "Celta Vigo",
+		"win": "2.16",
+		"draw": "3.41",
+		"lose": "3.40"
+	},
+	{
+		"homeTeam": "Villarreal",
+		"awayTeam": "Granada CF",
+		"win": "1.63",
+		"draw": "3.77",
+		"lose": "5.77"
+	},
+	{
+		"homeTeam": "Valencia",
+		"awayTeam": "Osasuna",
+		"win": "2.21",
+		"draw": "3.33",
+		"lose": "3.38"
+	},
+	{
+		"homeTeam": "Eibar",
+		"awayTeam": "Atl. Madrid",
+		"win": "6.06",
+		"draw": "3.37",
+		"lose": "1.70"
+	},
+	{
+		"homeTeam": "toolTipTV('x2V4dwXj', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/chance",
+		"win": "2.47",
+		"draw": "3.10",
+		"lose": "2.89"
+	},
+	{
+		"homeTeam": "AS Roma",
+		"awayTeam": "Inter",
+		"win": "3.03",
+		"draw": "3.61",
+		"lose": "2.34"
+	},
+	{
+		"homeTeam": "Parma",
+		"awayTeam": "Lazio",
+		"win": "5.49",
+		"draw": "4.20",
+		"lose": "1.62"
+	},
+	{
+		"homeTeam": "Udinese",
+		"awayTeam": "Napoli",
+		"win": "4.37",
+		"draw": "3.58",
+		"lose": "1.89"
+	},
+	{
+		"homeTeam": "Verona",
+		"awayTeam": "Crotone",
+		"win": "1.83",
+		"draw": "3.68",
+		"lose": "4.57"
+	},
+	{
+		"homeTeam": "Fiorentina",
+		"awayTeam": "Cagliari",
+		"win": "1.79",
+		"draw": "3.85",
+		"lose": "4.59"
+	},
+	{
+		"homeTeam": "Juventus",
+		"awayTeam": "Sassuolo",
+		"win": "1.36",
+		"draw": "5.39",
+		"lose": "8.30"
+	},
+	{
+		"homeTeam": "Spezia",
+		"awayTeam": "Sampdoria",
+		"win": "3.17",
+		"draw": "3.30",
+		"lose": "2.39"
+	},
+	{
+		"homeTeam": "Lazio",
+		"awayTeam": "AS Roma",
+		"win": "2.92",
+		"draw": "3.68",
+		"lose": "2.37"
+	},
+	{
+		"homeTeam": "Bologna",
+		"awayTeam": "Verona",
+		"win": "2.47",
+		"draw": "3.28",
+		"lose": "3.02"
+	},
+	{
+		"homeTeam": "Torino",
+		"awayTeam": "Spezia",
+		"win": "2.01",
+		"draw": "3.44",
+		"lose": "3.96"
+	},
+	{
+		"homeTeam": "Sampdoria",
+		"awayTeam": "Udinese",
+		"win": "2.66",
+		"draw": "3.22",
+		"lose": "2.82"
+	},
+	{
+		"homeTeam": "Napoli",
+		"awayTeam": "Fiorentina",
+		"win": "1.56",
+		"draw": "4.30",
+		"lose": "5.95"
+	},
+	{
+		"homeTeam": "Crotone",
+		"awayTeam": "Benevento",
+		"win": "2.98",
+		"draw": "3.47",
+		"lose": "2.38"
+	},
+	{
+		"homeTeam": "Sassuolo",
+		"awayTeam": "Parma",
+		"win": "1.73",
+		"draw": "4.06",
+		"lose": "4.55"
+	},
+	{
+		"homeTeam": "Atalanta",
+		"awayTeam": "Genoa",
+		"win": "1.28",
+		"draw": "6.06",
+		"lose": "10.17"
+	},
+	{
+		"homeTeam": "Inter",
+		"awayTeam": "Juventus",
+		"win": "2.59",
+		"draw": "3.46",
+		"lose": "2.71"
+	},
+	{
+		"homeTeam": "Cagliari",
+		"awayTeam": "AC Milan",
+		"win": "5.78",
+		"draw": "4.51",
+		"lose": "1.54"
+	},
+	{
+		"homeTeam": "Augsburg",
+		"awayTeam": "Stuttgart",
+		"win": "3.52",
+		"draw": "3.59",
+		"lose": "2.10"
+	},
+	{
+		"homeTeam": "Arminia Bielefeld",
+		"awayTeam": "Hertha Berlin",
+		"win": "4.26",
+		"draw": "3.64",
+		"lose": "1.89"
+	},
+	{
+		"homeTeam": "Union Berlin",
+		"awayTeam": "Bayer Leverkusen",
+		"win": "3.57",
+		"draw": "3.39",
+		"lose": "2.15"
+	},
+	{
+		"homeTeam": "FC Koln",
+		"awayTeam": "Hertha Berlin",
+		"win": "3.67",
+		"draw": "3.39",
+		"lose": "2.11"
+	},
+	{
+		"homeTeam": "Dortmund",
+		"awayTeam": "Mainz",
+		"win": "1.24",
+		"draw": "6.44",
+		"lose": "11.95"
+	},
+	{
+		"homeTeam": "Hoffenheim",
+		"awayTeam": "Arminia Bielefeld",
+		"win": "1.62",
+		"draw": "4.23",
+		"lose": "5.26"
+	},
+	{
+		"homeTeam": "Werder Bremen",
+		"awayTeam": "Augsburg",
+		"win": "2.38",
+		"draw": "3.29",
+		"lose": "3.14"
+	},
+	{
+		"homeTeam": "Wolfsburg",
+		"awayTeam": "RB Leipzig",
+		"win": "3.76",
+		"draw": "3.68",
+		"lose": "1.99"
+	},
+	{
+		"homeTeam": "Stuttgart",
+		"awayTeam": "B. Monchengladbach",
+		"win": "2.94",
+		"draw": "3.88",
+		"lose": "2.26"
+	},
+	{
+		"homeTeam": "Bayern Munich",
+		"awayTeam": "Freiburg",
+		"win": "1.22",
+		"draw": "7.18",
+		"lose": "11.72"
+	},
+	{
+		"homeTeam": "Eintracht Frankfurt",
+		"awayTeam": "Schalke",
+		"win": "1.53",
+		"draw": "4.51",
+		"lose": "5.87"
+	},
+	{
+		"homeTeam": "Montpellier",
+		"awayTeam": "Monaco",
+		"win": "3.81",
+		"draw": "3.83",
+		"lose": "1.92"
+	},
+	{
+		"homeTeam": "Marseille",
+		"awayTeam": "Nimes",
+		"win": "1.37",
+		"draw": "5.11",
+		"lose": "8.30"
+	},
+	{
+		"homeTeam": "Angers",
+		"awayTeam": "Paris SG",
+		"win": "8.26",
+		"draw": "5.18",
+		"lose": "1.37"
+	},
+	{
+		"homeTeam": "Brest",
+		"awayTeam": "Rennes",
+		"win": "3.34",
+		"draw": "3.53",
+		"lose": "2.13"
+	},
+	{
+		"homeTeam": "Lorient",
+		"awayTeam": "Dijon",
+		"win": "2.02",
+		"draw": "3.31",
+		"lose": "3.93"
+	},
+	{
+		"homeTeam": "Nantes",
+		"awayTeam": "Lens",
+		"win": "2.69",
+		"draw": "3.30",
+		"lose": "2.67"
+	},
+	{
+		"homeTeam": "Nice",
+		"awayTeam": "Bordeaux",
+		"win": "2.31",
+		"draw": "3.30",
+		"lose": "3.17"
+	},
+	{
+		"homeTeam": "Strasbourg",
+		"awayTeam": "St Etienne",
+		"win": "2.29",
+		"draw": "3.13",
+		"lose": "3.38"
+	},
+	{
+		"homeTeam": "Lille",
+		"awayTeam": "Reims",
+		"win": "1.54",
+		"draw": "3.96",
+		"lose": "6.61"
+	},
+	{
+		"homeTeam": "Lyon",
+		"awayTeam": "Metz",
+		"win": "1.33",
+		"draw": "5.31",
+		"lose": "9.11"
+	},
+	{
+		"homeTeam": "Marseille",
+		"awayTeam": "Lens",
+		"win": "1.97",
+		"draw": "3.72",
+		"lose": "4.14"
+	},
+	{
+		"homeTeam": "Paris SG",
+		"awayTeam": "Montpellier",
+		"win": "1.18",
+		"draw": "9.40",
+		"lose": "16.00"
+	},
+	{
+		"homeTeam": "Lens",
+		"awayTeam": "Nice",
+		"win": "2.00",
+		"draw": "3.50",
+		"lose": "4.34"
+	},
+	{
+		"homeTeam": "Monaco",
+		"awayTeam": "Marseille",
+		"win": "1.95",
+		"draw": "3.82",
+		"lose": "4.14"
+	},
+	{
+		"homeTeam": "toolTipTV('0nDRU2k1', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "2.65",
+		"draw": "3.32",
+		"lose": "2.96"
+	},
+	{
+		"homeTeam": "toolTipTV('f9CVTM47', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "3.01",
+		"draw": "3.42",
+		"lose": "2.56"
+	},
+	{
+		"homeTeam": "toolTipTV('zL38yZND', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "2.21",
+		"draw": "3.30",
+		"lose": "3.82"
+	},
+	{
+		"homeTeam": "toolTipTV('8Y1GZChQ', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "3.11",
+		"draw": "3.52",
+		"lose": "2.44"
+	},
+	{
+		"homeTeam": "toolTipTV('pfgrVW0s', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "2.49",
+		"draw": "3.30",
+		"lose": "3.20"
+	},
+	{
+		"homeTeam": "toolTipTV('SIrmUjGm', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "2.90",
+		"draw": "3.20",
+		"lose": "2.79"
+	},
+	{
+		"homeTeam": "toolTipTV('69siTAVg', {'62':'<a class=\"name",
+		"awayTeam": "white\" href=\"/bookmaker/tipsport",
+		"win": "4.14",
+		"draw": "3.72",
+		"lose": "1.97"
+	},
+	{
+		"homeTeam": "SC Farense",
+		"awayTeam": "Gil Vicente",
+		"win": "2.73",
+		"draw": "2.93",
+		"lose": "2.88"
+	},
+	{
+		"homeTeam": "Belenenses",
+		"awayTeam": "Ferreira",
+		"win": "3.05",
+		"draw": "3.01",
+		"lose": "2.54"
+	},
+	{
+		"homeTeam": "FC Porto",
+		"awayTeam": "Benfica",
+		"win": "2.44",
+		"draw": "3.19",
+		"lose": "2.80"
+	},
+	{
+		"homeTeam": "Vitoria Guimaraes",
+		"awayTeam": "Nacional",
+		"win": "1.77",
+		"draw": "3.61",
+		"lose": "4.85"
+	},
+	{
+		"homeTeam": "Sparta Rotterdam",
+		"awayTeam": "Feyenoord",
+		"win": "3.82",
+		"draw": "3.91",
+		"lose": "1.87"
+	},
+	{
+		"homeTeam": "Heerenveen",
+		"awayTeam": "Sittard",
+		"win": "1.70",
+		"draw": "4.02",
+		"lose": "4.72"
+	},
+	{
+		"homeTeam": "Venlo",
+		"awayTeam": "Willem II",
+		"win": "3.01",
+		"draw": "3.60",
+		"lose": "2.27"
+	},
+	{
+		"homeTeam": "Ajax",
+		"awayTeam": "PSV",
+		"win": "1.71",
+		"draw": "4.13",
+		"lose": "4.63"
+	},
+	{
+		"homeTeam": "Vitesse",
+		"awayTeam": "Utrecht",
+		"win": "2.12",
+		"draw": "3.42",
+		"lose": "3.22"
+	},
+	{
+		"homeTeam": "Heracles",
+		"awayTeam": "FC Emmen",
+		"win": "1.83",
+		"draw": "3.65",
+		"lose": "3.95"
+	},
+	{
+		"homeTeam": "PSV",
+		"awayTeam": "AZ Alkmaar",
+		"win": "1.68",
+		"draw": "4.23",
+		"lose": "4.18"
+	},
+	{
+		"homeTeam": "Den Haag",
+		"awayTeam": "Venlo",
+		"win": "2.69",
+		"draw": "3.42",
+		"lose": "2.46"
+	},
+	{
+		"homeTeam": "Sittard",
+		"awayTeam": "Sparta Rotterdam",
+		"win": "2.91",
+		"draw": "3.48",
+		"lose": "2.29"
+	},
+	{
+		"homeTeam": "Feyenoord",
+		"awayTeam": "Zwolle",
+		"win": "1.26",
+		"draw": "5.93",
+		"lose": "9.14"
+	},
+	{
+		"homeTeam": "Heerenveen",
+		"awayTeam": "Waalwijk",
+		"win": "1.46",
+		"draw": "4.54",
+		"lose": "5.83"
+	},
+	{
+		"homeTeam": "Twente",
+		"awayTeam": "Ajax",
+		"win": "7.72",
+		"draw": "4.76",
+		"lose": "1.35"
+	},
+	{
+		"homeTeam": "Willem II",
+		"awayTeam": "Groningen",
+		"win": "2.72",
+		"draw": "3.40",
+		"lose": "2.41"
+	},
+	{
+		"homeTeam": "Brisbane Roar",
+		"awayTeam": "Melbourne Victory",
+		"win": "2.38",
+		"draw": "3.54",
+		"lose": "3.13"
+	},
+	{
+		"homeTeam": "Sydney FC",
+		"awayTeam": "WS Wanderers",
+		"win": "1.64",
+		"draw": "3.87",
+		"lose": "5.10"
+	},
+	{
+		"homeTeam": "Melbourne City",
+		"awayTeam": "Western United",
+		"win": "1.76",
+		"draw": "3.82",
+		"lose": "4.27"
+	},
+	{
+		"homeTeam": "Newcastle Jets",
+		"awayTeam": "Macarthur FC",
+		"win": "2.53",
+		"draw": "3.36",
+		"lose": "2.71"
+	},
+	{
+		"homeTeam": "Perth Glory",
+		"awayTeam": "Adelaide United",
+		"win": "2.08",
+		"draw": "3.51",
+		"lose": "3.25"
+	}
+]
