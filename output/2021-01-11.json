@@ -1,0 +1,47 @@
+[
+	{
+		"homeTeam": "Stockport County",
+		"awayTeam": "West Ham",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Elche",
+		"awayTeam": "Getafe",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Huesca",
+		"awayTeam": "Real Betis",
+		"time": "22:00"
+	},
+	{
+		"homeTeam": "Ponferradina",
+		"awayTeam": "Girona",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Sporting Gijon",
+		"awayTeam": "Fuenlabrada",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Sabadell",
+		"awayTeam": "Lugo",
+		"time": "22:30"
+	},
+	{
+		"homeTeam": "Spezia",
+		"awayTeam": "Sampdoria",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Eintracht Braunschweig",
+		"awayTeam": "Fortuna Düsseldorf",
+		"time": "21:30"
+	},
+	{
+		"homeTeam": "Ponte Preta",
+		"awayTeam": "Cuiabá",
+		"time": "22:30"
+	}
+]
