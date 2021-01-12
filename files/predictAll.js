@@ -1,6 +1,8 @@
 const { statAddAll } = require("./statAddAll.js");
-const tour = require("../output/" + "2021-01-11.json");
+const tour = require("../output/" + "2021-01-12.json");
 tour.forEach((x) => {
 	//console.log(x);
 	statAddAll(x);
 });
+
+//https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/introduction?__cf_chl_captcha_tk__=099a2e92c8b74a84912e145ac0c679daf94d6e75-1610444841-0-ATa33VSZHNQPKcOftQa2yOp_vuVkPMH6sauvcQcai-55xr564WfqSJgbH973qrE-cyo_lJ5Q5EhZKOYE8qV3J6KSsZYH1JmqT44EA5qoZspoV1uxJi3bTdgbc3rBkNmViEK_F7mkEPuG05rWmRVEWc71ujXSjQQ5dNxCAxI1pMlLJ1-n-NMpMB2WxHFufuthnPc99yxYRGTY3ichJB5R12qmNj7DKfnWQxilMz2qZUs6jF_jPE4dPqEOkm50v_V9S7woiOj3m0ls_ht23ZK5CPagh7wtmfy5m1V08B7eaQna7jbWNu9tlQVMkiTdUnV2jICpOKaCb8onQioqhX4cCMo2gQZ7qwoV1u4_J03SOKwRs3Sb8hFI5FPiM-l1ftw8UOkIJhsf6VvBWOxwbFO7qID6L1HO56_kla-lAhsQQRuOwLffESUWtXrUBy8TaWZ958hg27juwo5fxcdiEUjizQgRm7OUf3ZE9nlVkVcnOeDaVdattzA1MXOom1mmbU3J52zkyLw-9oT-F2GXnR7rZJiWnzsVGpCuihsw0kzN-Y71MFJh9QkWHUqoNzaE8iZPmDfKY22Qpi1mR4KRwUV0689h_t7sLHDkj0tg4Le9QjvvAS5d0mtJiW2bbvp8g6b9SmeqjJGxLAPQhicPiIRtGmw

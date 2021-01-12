@@ -2,7 +2,7 @@ const { teamStat } = require("./statAll.js");
 const { gameProgress } = require("./xgWinDrawLose.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2021-01-11.json");
+const odds = require("../output/" + "ODDS2021-01-12.json");
 //nameTeam = "Ajax";
 
 //

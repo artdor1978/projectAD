@@ -1,0 +1,72 @@
+[
+	{
+		"homeTeam": "Sheff Utd",
+		"awayTeam": "Newcastle",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Burnley",
+		"awayTeam": "Man Utd",
+		"time": "22:15"
+	},
+	{
+		"homeTeam": "Wolves",
+		"awayTeam": "Everton",
+		"time": "22:15"
+	},
+	{
+		"homeTeam": "Luton",
+		"awayTeam": "QPR",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Bournemouth",
+		"awayTeam": "Millwall",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Charlton",
+		"awayTeam": "Rochdale",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Exeter",
+		"awayTeam": "Bolton",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Harrogate",
+		"awayTeam": "Carlisle",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Scunthorpe",
+		"awayTeam": "Salford",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Granada",
+		"awayTeam": "Osasuna",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Atlético Madrid",
+		"awayTeam": "Sevilla",
+		"time": "22:30"
+	},
+	{
+		"homeTeam": "AC Milan",
+		"awayTeam": "Torino",
+		"time": "21:45"
+	},
+	{
+		"homeTeam": "Vitesse",
+		"awayTeam": "Utrecht",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "Heracles",
+		"awayTeam": "Emmen",
+		"time": "22:00"
+	}
+]
