@@ -39,7 +39,8 @@ const statAddAll = (tArr) => {
 			"DRAW: ",
 			/*(gamePrOne.HD + gamePrTwo.HD).toFixed(1) + "/" + (gamePrOne.AD + gamePrTwo.AD).toFixed(1), "     ",
 			((gamePrOne.HD + gamePrTwo.HD) / (gamePrOne.AD + gamePrTwo.AD)).toFixed(1), "     ",*/
-			(gamePrOne.HD / gamePrOne.AD).toFixed(1), " ",
+			(gamePrOne.HD / gamePrOne.AD).toFixed(1),
+			" ",
 			(gamePrTwo.AD / gamePrTwo.HD).toFixed(1),
 			gamePrOne.HD,
 			gamePrOne.AD,
@@ -92,6 +93,14 @@ const statAddAll = (tArr) => {
 			" ",
 			(predictOne + predictTwo).toFixed(1)
 		);
+		console.log(
+			"\x1b[31m%s\x1b[34m%s\x1b[0m",
+			"predictEXT: ",
+			(
+				predictOne.toFixed(2) * (gamePrOne.HD / gamePrOne.AD).toFixed(1) +
+				predictTwo.toFixed(2) * (gamePrTwo.AD / gamePrTwo.HD).toFixed(1)
+			).toFixed(1)
+		);
 		//console.log("forecast:", forecastOne.toFixed(2), forecastTwo.toFixed(2));
 		const closest = (counts, goal) =>
 			counts.reduce(function (prev, curr) {
@@ -133,8 +142,8 @@ const statAddAll = (tArr) => {
 				: monteHome[index] === monteAway[index]
 				? draw++
 				: lose++;
-			/*monteHome[index] + monteAway[index] > 2.5 ? over2++ : under2++;
-		monteHome[index] + monteAway[index] > 1.5 ? over1++ : under1++;
+			monteHome[index] + monteAway[index] > 2.5 ? over2++ : under2++;
+			/*monteHome[index] + monteAway[index] > 1.5 ? over1++ : under1++;
 		monteHome[index] + monteAway[index] > 3.5 ? over3++ : under3++;*/
 		}
 		//console.log(monteHome,monteAway);
@@ -187,13 +196,13 @@ const statAddAll = (tArr) => {
 		"over/under1.5:",
 		(1 / (over1 / 10000)).toFixed(2),
 		(1 / (under1 / 10000)).toFixed(2)
-	);
-	console.log(
+	);*/
+		/*console.log(
 		"over/under2.5:",
 		(1 / (over2 / 10000)).toFixed(2),
 		(1 / (under2 / 10000)).toFixed(2)
-	);
-	console.log(
+	);*/
+		/*console.log(
 		"over/under3.5:",
 		(1 / (over3 / 10000)).toFixed(2),
 		(1 / (under3 / 10000)).toFixed(2)
