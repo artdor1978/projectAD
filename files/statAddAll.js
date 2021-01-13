@@ -2,7 +2,7 @@ const { teamStat } = require("./statAll.js");
 const { gameProgress } = require("./xgWinDrawLose.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2021-01-12.json");
+const odds = require("../output/" + "ODDS2021-01-13.json");
 //nameTeam = "Ajax";
 
 //
@@ -16,13 +16,13 @@ const statAddAll = (tArr) => {
 
 	if (teamOne) {
 		//console.log("last15:", teamOne.last15, teamTwo.last15);
-		/*console.log(
+		console.log(
 			"0-0:",
-			(teamOne.hzero + teamTwo.hzero).toFixed(1) + "/" + (teamOne.azero + teamTwo.azero).toFixed(1), "     ",
-			((teamOne.hzero + teamTwo.hzero) / (teamOne.azero + teamTwo.azero)).toFixed(1), "     ",
+			/*(teamOne.hzero + teamTwo.hzero).toFixed(1) + "/" + (teamOne.azero + teamTwo.azero).toFixed(1), "     ",
+			((teamOne.hzero + teamTwo.hzero) / (teamOne.azero + teamTwo.azero)).toFixed(1), "     ",*/
 			(teamOne.hzero / teamOne.azero).toFixed(1),
 			(teamTwo.azero / teamTwo.hzero).toFixed(1)
-		);*/
+		);
 		console.log(
 			"WIN:",
 			/*(gamePrOne.HW + gamePrTwo.HW).toFixed(1) + "/" + (gamePrOne.AW + gamePrTwo.AW).toFixed(1), "     ",
@@ -93,14 +93,14 @@ const statAddAll = (tArr) => {
 			" ",
 			(predictOne + predictTwo).toFixed(1)
 		);
-		console.log(
+		/*console.log(
 			"\x1b[31m%s\x1b[34m%s\x1b[0m",
 			"predictEXT: ",
 			(
 				predictOne.toFixed(2) * (gamePrOne.HD / gamePrOne.AD).toFixed(1) +
 				predictTwo.toFixed(2) * (gamePrTwo.AD / gamePrTwo.HD).toFixed(1)
 			).toFixed(1)
-		);
+		);*/
 		//console.log("forecast:", forecastOne.toFixed(2), forecastTwo.toFixed(2));
 		const closest = (counts, goal) =>
 			counts.reduce(function (prev, curr) {

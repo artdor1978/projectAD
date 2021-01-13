@@ -1,0 +1,38 @@
+[
+	{
+		"homeTeam": "Man City",
+		"awayTeam": "Brighton",
+		"time": "20:00"
+	},
+	{
+		"homeTeam": "Tottenham",
+		"awayTeam": "Fulham",
+		"time": "22:15"
+	},
+	{
+		"homeTeam": "Oldham",
+		"awayTeam": "Mansfield",
+		"time": "21:45"
+	},
+	
+	{
+		"homeTeam": "PSV",
+		"awayTeam": "AZ Alkmaar",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "ADO Den Haag",
+		"awayTeam": "VVV-Venlo",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Fortuna Sittard",
+		"awayTeam": "Sparta Rotterdam",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Feyenoord",
+		"awayTeam": "PEC Zwolle",
+		"time": "22:00"
+	}
+]

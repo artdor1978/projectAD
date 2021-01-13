@@ -12,7 +12,7 @@ const urls = [
 	"https://www.oddsportal.com/soccer/australia/a-league/",
 ];
 (async () => {
-	const browser = await puppeteer.launch({ headless: false });
+	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 	let data = [];
 	for (var element of urls) {
@@ -41,7 +41,7 @@ const urls = [
 			y += 3;
 		}
 
-		console.log(data);
+		//console.log(data);
 	}
 	const jsonData = JSON.stringify(data, null, "\t");
 	let fileName =
