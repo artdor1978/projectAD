@@ -1,0 +1,23 @@
+[
+	{
+		"homeTeam": "Arsenal",
+		"awayTeam": "Crystal Palace",
+		"time": "22:00"
+	},
+	
+	{
+		"homeTeam": "Heerenveen",
+		"awayTeam": "RKC Waalwijk",
+		"time": "19:45"
+	},
+	{
+		"homeTeam": "Twente",
+		"awayTeam": "Ajax",
+		"time": "21:00"
+	},
+	{
+		"homeTeam": "Willem II",
+		"awayTeam": "Groningen",
+		"time": "22:00"
+	}
+]

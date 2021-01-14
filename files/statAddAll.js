@@ -2,7 +2,7 @@ const { teamStat } = require("./statAll.js");
 const { gameProgress } = require("./xgWinDrawLose.js");
 const { poissonDist } = require("./poissonDistribution.js");
 const { dutchTeams, urlsIdDutch } = require("./dutchE.js");
-const odds = require("../output/" + "ODDS2021-01-13.json");
+const odds = require("../output/" + "ODDS2021-01-14.json");
 //nameTeam = "Ajax";
 
 //
@@ -13,7 +13,10 @@ const statAddAll = (tArr) => {
 	const teamTwo = teamStat(tArr.awayTeam, 150, "AwayTeamID");
 	const gamePrOne = gameProgress(tArr.homeTeam, 150, "HomeTeamID");
 	const gamePrTwo = gameProgress(tArr.awayTeam, 150, "AwayTeamID");
-
+	console.log(
+		"attack: ",teamOne.xGSh.toFixed(2) + "/" + teamTwo.xGSh.toFixed(2),
+		"defence: ",teamOne.xGASh.toFixed(2) + "/" + teamTwo.xGASh.toFixed(2)
+	);
 	if (teamOne) {
 		//console.log("last15:", teamOne.last15, teamTwo.last15);
 		console.log(

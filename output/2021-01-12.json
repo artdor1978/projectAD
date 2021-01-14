@@ -24,26 +24,7 @@
 		"awayTeam": "Millwall",
 		"time": "21:45"
 	},
-	{
-		"homeTeam": "Charlton",
-		"awayTeam": "Rochdale",
-		"time": "21:00"
-	},
-	{
-		"homeTeam": "Exeter",
-		"awayTeam": "Bolton",
-		"time": "21:00"
-	},
-	{
-		"homeTeam": "Harrogate",
-		"awayTeam": "Carlisle",
-		"time": "21:00"
-	},
-	{
-		"homeTeam": "Scunthorpe",
-		"awayTeam": "Salford",
-		"time": "21:00"
-	},
+	
 	{
 		"homeTeam": "Granada",
 		"awayTeam": "Osasuna",
